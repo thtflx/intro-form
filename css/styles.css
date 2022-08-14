@@ -1,7 +1,7 @@
 /* CUSTOM-PROPS */
 
 :root {
-    --body-bg: #f1f4ff;
+    --body-bg: #E7E7E7;
     --green: #4dc490;
     --purple: #655af2;
     --red: #f03535;
@@ -33,7 +33,7 @@ body {
     line-height: 1.5;
     font-family: "Inter", sans-serif;
     color: var(--text-color);
-    background-color: #fff;
+    background-color: var(--body-bg);
 }
 
 img {
@@ -46,9 +46,9 @@ img {
 
 .container {
     width: 100%;
-    max-width: 1200px;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 1192px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -57,5 +57,7 @@ img {
 /* MAIN-CONTENT */
 
 .main-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
     flex-grow: 1;
 }
