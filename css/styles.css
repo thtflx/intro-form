@@ -195,6 +195,7 @@ img {
     line-height: 19px;
     color: #fff;
     background-color: var(--purple);
+    cursor: pointer;
 }
 
 .signup-form-notice {
@@ -204,7 +205,7 @@ img {
     font-size: 11px;
     line-height: 15px;
     color: #555;
-    cursor: pointer;
+    cursor: cell;
 }
 
 .signup-notice-link {
